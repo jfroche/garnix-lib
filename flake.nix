@@ -116,7 +116,8 @@
               isNormalUser = true;
               createHome = false;
               openssh.authorizedKeys.keys = [
-                "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJTPguYAuqp6qCU43u8g2hgWz4MLCEPPyoVPYO53qB+t garnixServer@garnix.io"
+                "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIDfXB3/WjhN/xJZPp3lsfAOzuiHDqZCecK1FRfcZnw0Y garnixServer@garnix.io"
+                "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAII7z7Auz+51Xlpm3qucyoWtAUBVIVkqQBaC6UBHufgf/ builder"
               ];
               extraGroups = [ "wheel" ];
             };
